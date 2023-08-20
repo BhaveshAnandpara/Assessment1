@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: #2B63D9;
+  --primary-400: #648EF7;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.title {
+
+  color: var(--base-white, #FFF);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  /* 115.385% */
+  letter-spacing: -0.52px;
+
+}
+
+.subtitle{
+
+  color: var(--primary-200, #B1CCFB);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: -0.1px;
+
+}
+
+.header-container {
+
+  border-bottom: 1px solid var(--primary-400, #648EF7);
+
+}
+
+.hero {
+
+  background: var(--primary-color);
+  height: 100vh;
+
+
+}
+
+
+
+.btn {
+
+  display: flex;
+  padding: 12px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 6px;
+  background: var(--primary-600, #437EF7);
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+
+}

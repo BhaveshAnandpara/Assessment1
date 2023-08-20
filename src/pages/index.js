@@ -5,6 +5,9 @@ import Hero from '@/components/Hero'
 import Features from '@/components/Features'
 import ProdFeatures from '@/components/ProdFeatures'
 import DarkProdFeatures from '@/components/DarkProdFeatures'
+import Card from '@/components/Card'
+import SectionHeader from '@/components/SectionHeader'
+import Blog from '@/components/Blog'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,23 +23,19 @@ export default function Home() {
 
         </section>
 
-        <section className="features bg-white flex">
+        <section className="features bg-white flex"> <Features /> </section>
 
-          <Features />
+        <section className="prod-features bg-white flex"> <ProdFeatures /> </section>
 
-        </section>
+        <section className="dark-prod-features  bg-[#151B28] flex"> <DarkProdFeatures /> </section>
 
-        <section className="prod-features bg-white flex">
+        <div className="flex border flex-col justify-center items-center  bg-white"> 
 
-          <ProdFeatures />
+          <Card  /> 
 
-        </section>
+          <Blog/>
 
-        <section className="dark-prod-features  bg-[#151B28] flex">
-
-          <DarkProdFeatures />
-
-        </section>
+        </div>
 
       </main>
     </>

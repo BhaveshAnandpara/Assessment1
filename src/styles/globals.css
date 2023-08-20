@@ -138,6 +138,16 @@ section {
 
 }
 
+.dark-prod-feature-list > .prod-block-container > div > h3{
+
+  color: #F9F9F9;
+
+}
+
+.dark-prod-feature-list > .prod-block-container > div > p{
+  color : #A5ACBA;
+}
+
 .btn {
 
   display: flex;

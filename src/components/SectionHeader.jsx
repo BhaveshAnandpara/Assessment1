@@ -4,7 +4,7 @@ export default function SectionHeader( { title , subtitle } ) {
     <div className="section-header flex flex-col gap-[16px]">
 
         <h2 >{title}</h2>
-        <p>{subtitle}</p>
+        <p className="w-[65%]" >{subtitle}</p>
 
 </div>
   )

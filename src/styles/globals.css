@@ -111,7 +111,7 @@ section {
 }
 
 
-.block-container:first-child  h3 {
+.block-container > div:first-child  h3 ,  .prod-block-container > div > h3{
 
   color: var(--gray-700, #272D37);
 
@@ -125,7 +125,7 @@ section {
 
 }
 
-.block-container:first-child > p {
+.block-container > div:first-child > p , .prod-block-container > div > p {
 
   color: var(--gray-50, #5F6D7E);
   /* Text L/Regular */

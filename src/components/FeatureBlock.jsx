@@ -2,6 +2,7 @@ import Image from "next/image";
 import arrow from '../../public/assets/arrow.svg'
 
 export default function FeatureBlock({ icon , title , subtitle }) {
+
     return (
         <>
 

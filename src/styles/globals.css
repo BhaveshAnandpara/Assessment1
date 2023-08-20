@@ -186,8 +186,25 @@ section {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   letter-spacing: -0.1px;
+
+}
+
+.call-to-action>h2 {
+
+
+  color: var(--gray-700, #272D37);
+  text-align: center;
+  width: 60%;
+  /* Headline M/Desktop/Semibold */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  /* 131.25% */
+  letter-spacing: -0.32px;
 
 }
 

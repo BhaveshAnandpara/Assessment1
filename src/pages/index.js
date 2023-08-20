@@ -8,6 +8,8 @@ import DarkProdFeatures from '@/components/DarkProdFeatures'
 import Card from '@/components/Card'
 import SectionHeader from '@/components/SectionHeader'
 import Blog from '@/components/Blog'
+import EndSection from '@/components/EndSection'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,10 +34,13 @@ export default function Home() {
         <div className="flex border flex-col justify-center items-center  bg-white"> 
 
           <Card  /> 
-
           <Blog/>
 
         </div>
+
+        <section className="endSection bg-white flex" > <EndSection /> </section>
+
+        <div className="flex bg-[#151B28]"> <Footer/> </div>
 
       </main>
     </>
